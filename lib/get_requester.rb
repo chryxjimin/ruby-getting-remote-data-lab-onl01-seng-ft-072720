@@ -5,7 +5,7 @@
 
 class GetRequester
 
-   URI = https://learn-co-curriculum.github.io/json-site-example/endpoints/people.json
+  # URI = https://learn-co-curriculum.github.io/json-site-example/endpoints/people.json
 
    #def initialize(url)
 
