@@ -9,7 +9,7 @@ class GetRequester
 
    def initialize(url)
       @url = url
-      @url = URL
+    #  @url = URL
    end
 
    def get_response_body
