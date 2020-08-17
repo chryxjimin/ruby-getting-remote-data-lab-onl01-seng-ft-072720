@@ -6,15 +6,16 @@ require 'json'
 class GetRequester
 
    URI = https://learn-co-curriculum.github.io/json-site-example/endpoints/people.json
-   def initialize(url)
-     
-   end
 
-   def get_response_body
+   #def initialize(url)
 
-   end
-
-   def parse_json
-
-   end
+  #  end
+   #
+  #  def get_response_body
+   #
+  #  end
+   #
+  #  def parse_json
+   #
+  #  end
 end
