@@ -17,11 +17,11 @@ class GetRequester
        response = Net::HTTP.get_response(uri)
        response.body
    end
-   
+
    def parse_json
        data = JSON.parse(self.get_response_body)
        data.collect do |info|
          data["data_structures"]
-       end 
+       end
    end
 end
