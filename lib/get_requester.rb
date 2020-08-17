@@ -4,8 +4,10 @@ require 'json'
 
 
 class GetRequester
-   def initialize(url)
 
+   URI = https://learn-co-curriculum.github.io/json-site-example/endpoints/people.json
+   def initialize(url)
+     
    end
 
    def get_response_body
